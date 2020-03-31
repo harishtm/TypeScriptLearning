@@ -7,6 +7,11 @@ Inevitably, this means that no matter where functions and variables are declared
 they are moved to the top of their scope regardless of whether their scope is global or local.
 
 */
+/*
+
+"var" declaration is function scope
+
+*/
 function greetMessage(name) {
     if (name == "John") {
         var msg = "Hello " + name;

@@ -7,6 +7,11 @@ they are moved to the top of their scope regardless of whether their scope is gl
 
 */
 
+/*
+
+"var" declaration is function scope
+
+*/
 
 function greetMessage(name: any){
     if(name == "John"){
