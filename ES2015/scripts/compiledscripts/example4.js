@@ -18,3 +18,10 @@ console.log(obj.name);
 // obj = {} // can't assign new obj because it is a constant
 obj.name = "John"; // but can be assigned to a property of an object
 console.log(obj.name);
+/* when to use let and const */
+/*
+
+use let when re assignment is expected
+use const when new value assignment is not expected
+
+*/
