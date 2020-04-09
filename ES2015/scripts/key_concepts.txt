@@ -1,3 +1,7 @@
 1. Hoisting
 2. Function Scope
 3. var v/s let
+4. let and const
+5. Arrow functions
+6. Function parameters
+7. Rest v/s Spread operator
