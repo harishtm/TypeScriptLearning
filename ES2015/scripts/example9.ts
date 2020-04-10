@@ -18,7 +18,10 @@ displaytheme("List of Fruits", ...fruits) // use of spread operator
 1. Rest operator is specified in "function declaration" where as 
    Spread operator is specified during "function call" 
 
-2. Rest Parameter [ …rest] "It is a collection of all remaining elements"
+2. Rest Parameter is collecting all remaining elements into an array .
+   Spread Operator is unpacking collected elements such as arrays into single elements .
+
+3. Rest Parameter [ …rest] "It is a collection of all remaining elements"
    (hence, the name rest, as in the rest of the elements) into an array.
    Spread Operator […spread] It’s the opposite to rest parameter ,
    where rest parameter collects items into an array,
@@ -33,3 +36,9 @@ var empname = ["John", "Donald", "Smith"];
 const [firstName, ...familyName] =  empname;
 console.log(firstName);
 console.log(familyName)
+
+/* Spread operator */
+
+var emp_name = ["Scott", "Stiris", "Millar"];
+var profile = [...emp_name, "Cricket", "28"];
+console.log(profile)
