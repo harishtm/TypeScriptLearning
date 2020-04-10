@@ -32,4 +32,8 @@ displaytheme.apply(void 0, __spreadArrays(["List of Fruits"], fruits)); // use o
    where rest parameter collects items into an array,
    the "spread operator unpacks the collected elements into single elements".
    
-*/ 
+*/
+var empname = ["John", "Donald", "Smith"];
+var firstName = empname[0], familyName = empname.slice(1);
+console.log(firstName);
+console.log(familyName);

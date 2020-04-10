@@ -25,3 +25,11 @@ displaytheme("List of Fruits", ...fruits) // use of spread operator
    the "spread operator unpacks the collected elements into single elements".
    
 */
+
+
+/* Rest operator */
+
+var empname = ["John", "Donald", "Smith"];
+const [firstName, ...familyName] =  empname;
+console.log(firstName);
+console.log(familyName)
