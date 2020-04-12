@@ -14,5 +14,5 @@ var account = {
 var acnumber = account.acnumber, actype = account.actype, branch = account.branch;
 console.log(acnumber, actype, branch);
 // aliasing object names
-var acn = account.acnumber, act = account.actype, b = account.branch;
+var acn = account.acnumber, act = account.actype, br = account.branch;
 console.log("aliasing", acn, act, b);
