@@ -16,3 +16,9 @@ let account = {
 let {acnumber, actype, branch} = account;
 
 console.log(acnumber, actype, branch)
+
+// aliasing object names
+
+let {acnumber: acn, actype: act, branch: b} = account;
+
+console.log("aliasing", acn, act, b)
