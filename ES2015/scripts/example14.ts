@@ -16,4 +16,4 @@ let grt = `Welcome 'single', "doble quotes text" ${user} ES2015
 `;
 
 console.log(greet, "====", greet_new)
-
+console.log(grt);

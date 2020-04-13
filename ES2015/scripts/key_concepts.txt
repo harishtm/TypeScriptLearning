@@ -5,3 +5,7 @@
 5. Arrow functions
 6. Function parameters
 7. Rest v/s Spread operator
+8. Array and Object destructuring
+9. String template
+10. for of
+11.
