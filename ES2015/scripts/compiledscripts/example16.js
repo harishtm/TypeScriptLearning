@@ -1,5 +1,6 @@
 "use strict";
 /* Class in ES2015 */
+// Hoisting is JavaScript's default behavior of moving declarations to the top.
 // let p1 = new Person() // Not allowed - Error - class 'Person' used before its declaration.
 var Person = /** @class */ (function () {
     function Person() {

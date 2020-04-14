@@ -1,3 +1,6 @@
+
+// Hoisting is JavaScript's default behavior of moving declarations to the top.
+
 /*
 1. Hoisting
 2. Functional scope
