@@ -32,7 +32,7 @@ var Chimps = /** @class */ (function (_super) {
     // if the method does not exists in the derived class the parent class method is used
     Chimps.prototype.hasTail = function () {
         return false;
-        // return super.hasTail(); // Get access to the parent class method 
+        // return super.hasTail(); // Get access to the parent class method use super
     };
     return Chimps;
 }(Animal));
