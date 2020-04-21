@@ -4,4 +4,4 @@ export let da = 5;
 
 // export multiple variables in single line can be
 
-// export {basic, da}
+// export {basic, da};
