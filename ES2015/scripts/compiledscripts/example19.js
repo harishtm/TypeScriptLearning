@@ -31,4 +31,6 @@ var newSet = new Set([1, 2, 3, 4, 4, 4]);
 console.log("Size of new set ", newSet.size); // 4 as other values are repeated
 var chainSet = new Set().add("Hello").add("World");
 console.log("Size of chain set", chainSet.size);
-console.log(newSet.delete(1)); // deleting an element from set
+newSet.delete(1); // deleting an element from set
+console.log("After delete", newSet.size);
+console.log("To check the value in the set", newSet.has(2)); // returns true or false
