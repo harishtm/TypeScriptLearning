@@ -34,3 +34,10 @@ console.log("Size of chain set", chainSet.size);
 newSet.delete(1); // deleting an element from set
 console.log("After delete", newSet.size);
 console.log("To check the value in the set", newSet.has(2)); // returns true or false
+// WeakSets
+var wset = new Set();
+var key = {};
+wset.add(key);
+console.log("Wekset First Size", wset.size);
+key = null;
+console.log("Wekset after null", wset.size);
