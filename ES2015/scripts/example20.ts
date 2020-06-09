@@ -23,3 +23,29 @@ mynewMap.clear();
 
 console.log(mynewMap.size);
 console.log(mynewMap.has('empname'))
+
+/* Iterating Map use Scratch JS chrome extension to see the iteration*/
+
+// To iterate only keys
+
+for(let key of mynewMap.keys()){
+    console.log("Key", key)
+}
+
+// To iterate only values
+
+for(let value of mynewMap.values()){
+    console.log("value", value)
+}
+
+// To get both key and value use entries
+
+for(let entry of mynewMap.entries()) {
+    console.log(`${entry[0]} -> ${entry[1]}`)
+}
+
+// To get both key and value use entries with destructuring 
+
+for(let [key, value] of mynewMap.entries()) {
+    console.log(`${key} -> ${value}`)
+}
