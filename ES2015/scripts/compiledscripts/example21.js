@@ -14,3 +14,12 @@ function displayMap(value, key, callingMap) {
     console.log(key + " - " + value);
     console.log(myMapdata === callingMap);
 }
+// Similary for Set
+// function will have 3 parameters
+var mySet = new Set([1, 2, 3]);
+// mySet.forEach(); // Will throw error as there is no argument to forEach
+mySet.forEach(displaySet);
+function displaySet(value, key) {
+    console.log(key, " - ", value);
+    console.log(mySet === callingSet);
+}
