@@ -23,3 +23,12 @@ function displaySet(value, key) {
     console.log(key, " - ", value);
     console.log(mySet === callingSet);
 }
+/* =====   WeakMap   ==========
+
+1. In WeakMap Key can only be objects and the object references are weak
+   (i,e) meaning they do not interfear with garbage collection */
+var new_weak_map = new WeakMap();
+var obj_weak = {};
+new_weak_map.set(obj_weak, "Hello world");
+console.log(new_weak_map.get(obj_weak));
+obj_weak = {};
