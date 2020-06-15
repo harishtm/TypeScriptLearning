@@ -29,3 +29,12 @@ var p_person = (_a = {},
     _a);
 console.log(Object.getOwnPropertyNames(p_person));
 console.log(Object.getOwnPropertySymbols(p_person));
+// Built in Symbol Iterator - Iterator method
+var str = "Hello";
+var arr = [1, 2, 3];
+var snum = 5;
+var sobj = { name: "John" };
+console.log("For string", typeof (str[Symbol.iterator]));
+console.log("For array", typeof (arr[Symbol.iterator]));
+console.log("For number", typeof (snum[Symbol.iterator]));
+console.log("For object", typeof (sobj[Symbol.iterator]));
