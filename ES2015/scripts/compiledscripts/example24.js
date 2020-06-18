@@ -47,3 +47,34 @@ console.log(myGen.next());
 console.log(myGen.next());
 console.log(myGen.next());
 console.log(myGen.next());
+// Similar to iterators custom generators can aslo be defines
+var person_iter = {
+    fname: "John",
+    lname: "Smith"
+};
+person_iter[Symbol.iterator] = function () {
+    var obj_properties, _i, obj_properties_1, t;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0:
+                obj_properties = Object.keys(person_iter);
+                _i = 0, obj_properties_1 = obj_properties;
+                _a.label = 1;
+            case 1:
+                if (!(_i < obj_properties_1.length)) return [3 /*break*/, 4];
+                t = obj_properties_1[_i];
+                return [4 /*yield*/, this[t]];
+            case 2:
+                _a.sent();
+                _a.label = 3;
+            case 3:
+                _i++;
+                return [3 /*break*/, 1];
+            case 4: return [2 /*return*/];
+        }
+    });
+};
+for (var _i = 0, person_iter_1 = person_iter; _i < person_iter_1.length; _i++) {
+    var p_1 = person_iter_1[_i];
+    console.log("=====", p_1);
+}
