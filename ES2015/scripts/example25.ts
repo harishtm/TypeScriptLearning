@@ -1,3 +1,15 @@
+/*
+
+TypeScript
+
+1. Typed superset of JavaScript
+2. Types are optional
+3. Identify mistakes during development
+4. Tool Support
+5. TS = ES5 + ES6 + ES7 + Features
+
+*/
+
 // Different ways of declaration typescript variable 
 
 // Type inference
