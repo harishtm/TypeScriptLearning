@@ -45,3 +45,22 @@ var myChoice = fruitsColor.Green
 
 console.log(myChoice);
 console.log(fruitsColor[myChoice]);
+
+// Array and Tuple type
+
+let strArr1: string[] = ["hi", "welcome", "to", "ts", "data", "types"];
+let strArr2: Array<string> = ["hello", "world"];
+let numArr3: number[] = [1,2,3,4,5];
+// (or)
+let numArr4: number[];
+numArr4 = [7,8,9];
+
+console.log("Array type declaration", strArr1, strArr2, numArr3)
+
+let anyArray: any[] = ["hi", 10, true];
+
+// To have a heterogeneous collections we use tuple
+
+let myTuple: [string, number] = ["hi", 10];
+console.log("Tuple 1", myTuple[0]);
+console.log("Tuple 2", myTuple[1]);
