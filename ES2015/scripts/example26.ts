@@ -17,3 +17,28 @@ class FFruit {
         this.shape = shape
     }
 }
+
+// Interface in TypeScript
+
+interface IFruit {
+    colour: string;
+    shape: string;
+    avgweight?: number // to make it optional use "?"
+}
+
+// create a variable of type interface
+
+// if any of the property is not defined throws error
+
+let apple: IFruit = {
+     colour: "red",
+     shape: "round",
+     avgweight: 100
+}
+
+let mango: IFruit = {
+    colour: "yellow",
+    shape: "oval"
+}
+
+// In the above varibale we have not use avgweight property 
