@@ -48,6 +48,7 @@ console.log(myGen.next());
 console.log(myGen.next());
 console.log(myGen.next());
 // Similar to iterators custom generators can aslo be defines
+// below code will not log it has to be worked under ScratchJS chrome addon
 var person_iter = {
     fname: "John",
     lname: "Smith"
