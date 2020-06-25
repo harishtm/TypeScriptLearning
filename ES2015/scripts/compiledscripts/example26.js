@@ -17,3 +17,15 @@ var FFruit = /** @class */ (function () {
     }
     return FFruit;
 }());
+// create a variable of type interface
+// if any of the property is not defined throws error
+var apple = {
+    colour: "red",
+    shape: "round",
+    avgweight: 100
+};
+var mango = {
+    colour: "yellow",
+    shape: "oval"
+};
+// In the above varibale we have not use avgweight property 
